@@ -1,0 +1,51 @@
+body{margin: 0;}
+header{
+	background-color: #ffffff;
+}
+header nav img{
+	height: 75px;
+	width: 75px;
+	position: relative;
+}
+header nav b{font-size: 25px; 
+	bottom: 0px; 
+	position: relative; 
+	bottom: 30px;
+} 
+
+header nav ul{
+	list-style: none;
+	margin: 0; 
+	padding: 0;
+}
+header nav a{
+	text-decoration: none; 
+	padding: 15px 30px; 
+	display: inline-block;
+}
+header nav a:hover{
+	background-color: #2D2D2E;
+}
+header nav{display: flex; justify-content: center;}
+header nav ul{list-style: none; margin: 0; padding: 0;;}
+header nav a{color: #000000;text-decoration: none; padding: 15px 30px; display: inline-block;}
+header nav a:hover{color: #00CCCC;}
+header nav ul li li{width: 100%;}
+header nav ul ul{background-color: #3C3942; position: absolute; width: 100px; visibility: hidden; opacity: 0;}
+header nav ul li:hover>ul{visibility: visible; opacity: 1;}
+header nav ul li{float: left;}
+.clear{clear: both;}
+header img{width: 100%; height: 550px;}
+.judul{padding-top: 40px;text-align: center;padding-bottom: 20px;color: #eee}
+.isi{font-weight: 300;text-align: center;color: #eee}
+.tengah{background: url("BB.jpg");width: 100%; height: 150px;padding: 15px;}
+.t1{text-align: center;}
+.tengah2{background: url("AA.jpg");;width: 100%; height: 150px;padding: 15px;}
+
+footer{background-color: #636363;}
+footer nav{width: 80%; margin: 0 auto;}
+footer nav ul{list-style: none; margin: 0; padding: 0; width: 32%; float: left;}
+footer nav a{text-decoration: none; padding: 10px; margin: 10px; color: #FFF}
+footer nav a:hover{color: #000;}
+footer p{text-align: center; margin: 0; padding: 0;}
+
